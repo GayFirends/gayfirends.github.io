@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://gayfirends.github.io</id>
     <title>蒸汽波波</title>
-    <updated>2021-05-26T13:38:41.683Z</updated>
+    <updated>2021-06-04T09:26:01.840Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://gayfirends.github.io"/>
     <link rel="self" href="https://gayfirends.github.io/atom.xml"/>
@@ -11,34 +11,48 @@
     <icon>https://gayfirends.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 蒸汽波波</rights>
     <entry>
-        <title type="html"><![CDATA[关于'蒸汽平台'上线后的一些猜想]]></title>
-        <id>https://gayfirends.github.io/post/STEAM-CHINA/</id>
-        <link href="https://gayfirends.github.io/post/STEAM-CHINA/">
+        <title type="html"><![CDATA[通过Clover引导的macOS Catalina使用airportitlwm的办法]]></title>
+        <id>https://gayfirends.github.io/post/airport-clover-10.15.7/</id>
+        <link href="https://gayfirends.github.io/post/airport-clover-10.15.7/">
         </link>
-        <updated>2021-01-24T11:57:45.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="本文基于均为网上信息来源如有侵权请在评论区留言">本文基于均为网上信息来源，如有侵权请在评论区留言</h1>
-<h1 id="感谢其乐社区的清靈語大佬分享的消息">感谢其乐社区的“<a href="https://keylol.com/?209154">清靈語</a>”大佬分享的消息！**</h1>
-<p>目前蒸汽平台的官网<a href="https://store.steamchina.com/">https://store.steamchina.com/</a>已经可以正常打开只不过呢是403的状态</p>
-<figure data-type="image" tabindex="1"><img src="https://gayfirends.github.io/post-images/1611490084830.png" alt="截图奉上" loading="lazy"></figure>
-<hr>
-<p>目前根据'<a href="https://keylol.com/?1301631">k1riex</a>'大佬分享的消息称 蒸汽平台上线时不会影响原Steam国区，也就是说原Steam国区(以下简称'国区')与蒸汽平台属于两个独立的分区，也就是在中国境内会出现两个Steam中国区的现象。</p>
-<p>结合'<a href="https://keylol.com/?209154">清靈語</a>'分享的消息大概可以判定蒸汽平台使用的区域号为XC，而国区的区域号为CN。大概率可以说明以上消息大概率正确。</p>
-<h2 id="本文将会持续更新~">本文将会持续更新~</h2>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[好软推荐]著名音乐编曲软件 FL Studio 20.7下载]]></title>
-        <id>https://gayfirends.github.io/post/2020-12-fl/</id>
-        <link href="https://gayfirends.github.io/post/2020-12-fl/">
-        </link>
-        <updated>2020-12-22T08:10:47.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="简介">简介</h2>
-<p>FL Studio (2003年前被称为FruityLoops），是一款由比利时公司Image-Line开发的数位音频工作站。FL Studio能为图形用户界面提供基于乐段(pattern)的音乐音序器。该软件有四个不同版本可供Microsoft Windows和macOS用户使用，包括基础版(Fruity)、进阶版(Producer)、高级版(Signature)和完整版(All Plugins Bundle)。Image-Line为该软件提供终身免费更新服务，这意味着客户在购买一次后即可免费获得该软件的将来的所有更新。Image-Line公司同样开发了用于iPod Touch、iPhone、iPad和Android的移动应用程序FL Studio Mobile。FL Studio 是以乐段(pattern)为基础的编曲软件，意即是使用渐进式编曲机(Step Sequencer)和琴键轴(Piano Roll) 为其创作的方式，并在编辑播放视窗(Playlist window)下将乐段组合成完整曲子。仅不如此，FL Studio 还能输入audio tracks并加入内建效果，如reverb、phaser和flanger等，并透过自动化控制(automation)来加以编辑，可以使所作的乐曲与众不同。</p>
-<h2 id="截图">截图</h2>
-<p><img src="https://gayfirends.github.io/post-images/1608624892459.png" alt="版本信息" loading="lazy">版本<br>
-<img src="https://gayfirends.github.io/post-images/1608624921410.png" alt="软件界面" loading="lazy">软件界面</p>
-<h2 id="下载地址">下载地址</h2>
-<p><a href="https://blog-1251216006.cos.ap-chengdu.myqcloud.com/files/FL%20Studio.zip">单击我下载</a>  Power By 腾讯云</p>
+        <updated>2021-06-04T08:43:42.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="前言">前言</h2>
+<p>前两天为了专注的学习，我把我的笔记本从我用了很久的Windows转战到了macOS。macOS的流畅度真的令我十分震惊。但在震惊的同时我的困扰也随之而来。<br>
+我的困扰是我的无线网卡驱动无法正常被驱动，因为我使用的一直是笔记本自带的Intel AC3165的无线网卡，但苹果一直在Intel平台的Mac方面一直所使用的是博通的网卡，但因为黑苹果的兴起所以导致博通的原装拆机卡价格逐渐走高，让我这个贫贫无奇的少年无力承担。<br>
+于是我在网上冲浪的时候发现远景论坛上面已经有大神开发出来的Intel的无线网卡驱动，甚至已经可以做到原生wifi管理了，这让我大为震惊，于是我决定来写一篇文章来记录下我折腾的过程。</p>
+<h2 id="配置介绍">配置介绍</h2>
+<p>来简简单单的介绍一下我的配置吧<br>
+CPU：Intel i5-8400 6c6t 2.8Ghz<br>
+GPU：Intel UHD630（完美驱动）/GTX1050（无法驱动、已屏蔽）<br>
+SSD：三星PM871<br>
+内存：镁光8G DDR4 2133Mhz<br>
+网卡：Intel AC3165（半完美驱动）</p>
+<h2 id="驱动介绍">驱动介绍</h2>
+<p>首先这个驱动是由远景论坛的qcwap2012大神制作，原贴地址我会放在文末版权申明中。<br>
+在qcwap2012大神发布的驱动中有两个版本，分别是：itlwm以及Airportitlwm。启动itlwm是需要一个单独的客户端来进行管理WiFi的。他的使用方法和其他普通的kext的安装完全一致，所以本文重点不是这个驱动。<br>
+本文的重点是后者，那么airportitlwm对比itlwm有什么区别呢？<br>
+目前airportitlwm已经支持了比如handoff和剪切板共享的这几个关键功能，而且目前也已经可以打开Apple Watch解锁macOS的功能（虽然本人一直没有成功过），而且它能通过macOS的系统偏好设置中的WiFi界面进行连接配置wifi操作。<br>
+<img src="https://gayfirends.github.io/post-images/1622797506592.png" alt="原生管理WiFi" loading="lazy"><br>
+<img src="https://gayfirends.github.io/post-images/1622797552658.png" alt="系统详细信息内展示" loading="lazy"></p>
+<h2 id="驱动安装">驱动安装</h2>
+<p>首先我们要前往itlwm项目的GitHub的主页来下载我们的所需要的驱动程序。<a href="https://github.com/OpenIntelWireless/itlwm/releases/">GitHub下载地址</a><br>
+找到我们需要下载的版本，你是big sur就下载big sur的 Catalina的就下载Catalina的，切记不要下错！<img src="https://gayfirends.github.io/post-images/1622797891992.png" alt="" loading="lazy"><br>
+下载好后我们解压到任意位置，然后挂载EFI分区。这一步我就不用教你们了吧！<br>
+然后OC的用户可能有一些其他的操作我这边也不太清楚。可以前往他们的官方wiki查看！<a href="https://openintelwireless.github.io/itlwm/">官方wiki（英文）</a><br>
+然后我们重启电脑发现可能并不会生效，如果你和我一样使用的是Catalina 10.15.7的话那么可能就要进行如下操作：<br>
+1.打开终端<br>
+2.输入提权命令 sudo su 然后输入密码（密码不会显示，请注意）<br>
+3.输入 如下命令：sudo mount -uw /<br>
+killall Finder<br>
+4.打开Finder，前往 /Library/Extensions/文件夹 将解压好的airportitlwm.kext复制到目录下即可。<br>
+<img src="https://gayfirends.github.io/post-images/1622798495625.png" alt="" loading="lazy"><br>
+5.重启电脑，即可生效</p>
+<h2 id="结语">结语</h2>
+<p>虽然很简单，但我自己足足折腾了一个晚上才让其完美的上网，目前的版本已经可以跑满我的100Mbps小水管了。<br>
+如果觉得这篇文章对你有帮助的话，那么可以请作者喝杯咖啡吗！赞助二维码就在关于页面里面！</p>
+<h2 id="来源声明">来源声明</h2>
+<p><a href="http://bbs.pcbeta.com/viewthread-1848662-1-1.html">远景论坛原贴</a><br>
+感谢qcwap2012对黑苹果生态做出的巨大贡献！</p>
 ]]></content>
     </entry>
 </feed>
